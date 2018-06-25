@@ -1,0 +1,13 @@
+.Tile {
+    width: 150px;
+    height: 150px;
+    background-color: var(--cover-color);
+}
+
+.Tile-green {
+    background-color: var(--green);
+}
+
+.Tile-blue {
+    background-color: var(--blue);
+}
