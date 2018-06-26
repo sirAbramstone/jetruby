@@ -1,16 +1,18 @@
 :root {
   --cover-color: rgb(255, 92, 49);
-  --green: rgb(26, 201, 159);
+  --green: rgb(26, 221, 159);
   --blue: rgb(3, 169, 244);
+  --yellow: rgb(255, 197, 39);
+  --pink: rgb(237, 20, 91);
 }
 
 body {
+  height: 100%;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
-  height: 100%;
-}
 
-ul {
-  list-style: none;
+  font-family: 'Bungee Hairline', cursive;
+  font-size: 18px;
+  line-height: 1.2;
+  color: var(--cover-color);
 }

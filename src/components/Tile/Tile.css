@@ -1,7 +1,9 @@
 .Tile {
-    width: 150px;
-    height: 150px;
+    /*width: 120px;*/
+    height: 120px;
     background-color: var(--cover-color);
+
+    cursor: pointer;
 }
 
 .Tile-green {
@@ -10,4 +12,12 @@
 
 .Tile-blue {
     background-color: var(--blue);
+}
+
+.Tile-yellow {
+    background-color: var(--yellow);
+}
+
+.Tile-pink {
+    background-color: var(--pink);
 }

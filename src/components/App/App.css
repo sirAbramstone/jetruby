@@ -1,15 +1,16 @@
 .App {
-  text-align: center;
-  width: 620px;
-  margin: 2% auto;
+    text-align: center;
+    width: 500px;
+    margin: 2.5% auto;
 }
 
-ul {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  grid-gap: 5px;
-  width: 100%;
-  margin: 0;
-  padding: 0;
+.TileGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 3px;
+    border: 1px solid black;
+    width: 100%;
+    margin: 0;
+    padding: 2px;
 }
