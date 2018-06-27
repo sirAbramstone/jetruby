@@ -6,10 +6,13 @@
   --pink: rgb(237, 20, 91);
 }
 
-body {
-  height: 100%;
+* {
   margin: 0;
   padding: 0;
+}
+
+body {
+  height: 100%;
 
   font-family: 'Bungee Hairline', cursive;
   font-size: 18px;

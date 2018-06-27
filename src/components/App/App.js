@@ -5,8 +5,10 @@ import Tile from '../Tile/Tile';
 import './App.css';
 
 const COLORS = [
-    "green", "green", "green", "green", "blue", "blue", "blue", "blue",
-    "yellow", "yellow", "yellow", "yellow", "pink", "pink", "pink", "pink"
+    "green", "green", "green", "green",
+    "blue", "blue", "blue", "blue",
+    "yellow", "yellow", "yellow", "yellow",
+    "pink", "pink", "pink", "pink"
 ];
 
 class App extends Component {
@@ -54,7 +56,7 @@ class App extends Component {
 
         return (
             <div className="App">
-                <h1>{correct.length === tiles.length ? `Congratulations! You made: ${count} moves` : "JetRuby`s Memory Puzzle"}</h1>
+                <h1>{correct.length === tiles.length ? `Congratulations!!! You made: ${count} moves` : "Memory Puzzle"}</h1>
                 <div className="TileGrid">
                     {tiles.map((tile, i) => (
                         <Tile
